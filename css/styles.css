@@ -1,0 +1,15 @@
+.output {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.btn {
+  margin-bottom: 40px;
+
+}
+
+body {
+  background-image: url("../img/malone.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

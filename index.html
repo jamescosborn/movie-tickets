@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Igor's Movie House</h1>
+      <form id ="form">
+        <div class="questions">
+          <div class="form-group">
+            <label for="movieTitle">Select a movie</label>
+            <select class="form-control" id="movieTitle">
+              <option>Blade Runner Smurfs</option>
+              <option>Caddy Shack 3 .. in space..</option>
+              <option>Deus ex</option>
+              <option>sci fi movie</option>
+              <option>resurgence</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="movieTime">Select the time</label>
+            <input type="text" class="form-control" id="movieTime">
+          </div>
+          <div class="form-group">
+            <label for="movieAge">Select your age group</label>
+            <input type="text" class="form-control" id="movieAge">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-danger">Submit</button>
+    </div>
+    <div class="container">
+      <div class="well">
+      <div class="output">
+      </div>
+      </div>
+    </div>
+  </form>
+  </body>
+</html>
